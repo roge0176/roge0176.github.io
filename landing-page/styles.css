@@ -3,7 +3,6 @@
 body {
     background-color: #f7f7ff;
     margin: 0rem;
-    padding: 0rem;
 }
 
 .logo {
@@ -12,7 +11,7 @@ body {
 }
 
 .content {
-    margin: auto;
+    
 }
 
 h1 {
