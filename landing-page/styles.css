@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
+/* body bsic set up */
 body {
     background-color: #f7f7ff;
     margin: auto;
 }
 
+/* sizing and placing of main logo */
 img {
     height: 120px;
     width: 120px;
@@ -12,10 +14,12 @@ img {
     margin-bottom: 0.5rem;
 }
 
+/* centering main content section */
 .content {
     margin: 0rem 2rem 0rem 2rem;
 }
 
+/* h1 title configuration */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -24,6 +28,7 @@ h1 {
     font-size: 4.3rem;
 }
 
+/* p styling */
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -31,6 +36,7 @@ p {
     font-size: 1.8em;
 }
 
+/* setting up scooter image centering and making it responsive */
 .background-image img {
     height: auto;
     width: auto;
@@ -39,7 +45,7 @@ p {
 }
 
 /* form set up */
-
+/* h2 styling */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -49,6 +55,7 @@ h2 {
     font-size: 2.7rem;
 }
 
+/* styling of form container with borders and drop shadow */
 .form {
     background-color: white;
     padding: 0.5rem 1rem 1rem 0rem;
@@ -57,16 +64,20 @@ h2 {
     box-shadow: 5px 10px 5px 0px #C3C1C1;
 }
 
+/* p styling for form */
 .form p {
     font-size: 1rem;
     margin-bottom: 0.2rem;
+    margin-left: 1rem;
 }
 
+/* set up of margins inside form */
 .container {
     margin: 1rem;
     font-family: "Montserrat", sans-serif;
 }
 
+/* fieldset and input styling */
 fieldset {
     border: none;
 }
@@ -93,18 +104,11 @@ fieldset {
     padding: 0.8rem 0rem 0.8rem 0rem;
 }
 
-.form p {
-    margin-left: 1rem;
-}
-
-/* #spam {
-    font-family: 'Montserrat', sans-serif;
-} */
-
 .container fieldset:nth-child(7) {
     margin-bottom: -0.5rem;
 }
 
+/* styling of checkbox and label first hiding it and then styling it */
 input[type=checkbox] {
     visibility: hidden;
 }
@@ -137,6 +141,7 @@ span {
     margin-top: 0.2rem;
 }
 
+/* styling of link */
 a:link,
 a:visited {
 	text-decoration: none;
@@ -154,11 +159,13 @@ h3 {
     font-weight: 700;
 }
 
+/* footer text styling */
 footer p {
     margin-bottom: 1rem;
     font-size: 1.25rem;
 }
 
+/* footer form styling */
 .footer-form {
     margin-bottom: 2rem;
     display: flex;
@@ -168,7 +175,7 @@ footer p {
 footer fieldset {
     border: none;
 }
-
+/* styling of input boxes in footer */
 .footer-form input { 
     width: 100%;
     border: none;
@@ -179,10 +186,7 @@ footer fieldset {
     font-size: 1.1rem;
 }
 
-/* .footer-form input:nth-child(1) {
-    margin-right: 3rem;
-} */
-
+/* styling of fieldset making sure they fit on one line */
 footer fieldset:nth-child(1) {
     margin-left: 0;
     margin-right: 0.5rem;
@@ -203,6 +207,7 @@ footer fieldset:nth-child(3) {
     padding-right: 0rem;
 }
 
+/* styling of calculate button */
 footer input:nth-child(3) {
     width: 100%;
     background-color: #ff8480;
@@ -212,6 +217,7 @@ footer input:nth-child(3) {
     padding: 0.3rem 0 0.3rem 0;
 }
 
+/* footer logo socials styling */
 footer img {
     height: 40px;
     width: 40px;
