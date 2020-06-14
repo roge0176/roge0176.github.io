@@ -237,14 +237,17 @@ footer img {
 /* first breakpoint for tablet view */
 @media (min-width: 768px) {
 
+    /* line up logo with contect */
     .logo {
         margin-left: 2rem;
     }
 
+    /* change margins to have more space around conten */
     .content {
         margin: 0rem 4rem 6rem 4rem;
     }
 
+    /* making title bigger and p smaller*/
     h1 {
         font-size: 4.9rem;
     }
@@ -253,6 +256,7 @@ footer img {
         font-size: 1.7rem;
     }
 
+    /* set up max height and width for background image and center it */
     .background-image img {
         max-height: 500px;
         max-width: 500px;
@@ -262,10 +266,12 @@ footer img {
         text-align: center;
     }
 
+    /* spacing of form changes */
     .container {
         margin: 1.2rem;
     }
 
+    /* p font changes in form */
     .form p {
         font-size: 1.8rem;
     }
@@ -279,11 +285,12 @@ footer img {
         text-align: center;
     }
 
-    /* footer set up */
+    /* footer set up and spacing change*/
     footer {
         padding: 1.5rem 5rem 2rem 5rem;
     }
 
+    /* set up of different width to get all input on same line */
     footer fieldset:nth-child(1) {
         width: calc(20% - 1.5rem);
     }
@@ -298,6 +305,7 @@ footer img {
         width: calc(40% - 1.5rem);
     }
 
+    /* change width of logo icons to center them and have them closer to each other */
     .socials {
         justify-content: center;
     }
@@ -306,3 +314,4 @@ footer img {
         width: 12.5%;
     }    
 }
+
