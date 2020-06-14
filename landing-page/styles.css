@@ -12,6 +12,7 @@ img {
     width: 120px;
     margin-left: 2rem;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 /* centering main content section */
@@ -134,6 +135,7 @@ span {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
+    cursor: pointer;
 }
 
 .checkbox p {
@@ -242,6 +244,10 @@ footer img {
         margin-left: 2rem;
     }
 
+    img {
+        margin-top: 1.5rem;
+    }
+
     /* change margins to have more space around conten */
     .content {
         margin: 0rem 4rem 6rem 4rem;
@@ -315,3 +321,54 @@ footer img {
     }    
 }
 
+/* set up of laptop view */
+@media (min-width: 1024px) {
+    img {
+        margin-top: 2rem;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 35% 30% 35%;
+        margin-top: 3rem;
+        background-image: url(images/bg-image/scooter.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 675px;
+    }
+
+    .background-image {
+        display: none;
+    }
+
+    .form {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 60% 25% 15%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .socials {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-self: center;
+        align-self: center;
+        width: 125%;
+        justify-content: space-between;
+    }
+}
