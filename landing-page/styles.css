@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
-/* body bsic set up */
+/* body basic set up */
 body {
     background-color: #f7f7ff;
     margin: auto;
@@ -213,7 +213,7 @@ footer input:nth-child(3) {
     background-color: #ff8480;
     color: white;
     font-size: 1.8rem;
-    font-weight: 520;
+    font-weight: 600;
     padding: 0.3rem 0 0.3rem 0;
 }
 
