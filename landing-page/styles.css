@@ -41,8 +41,15 @@ p {
 .background-image img {
     height: auto;
     width: auto;
+    max-width: 500px;
+    max-height: 500px;
     text-align: center;
     margin: 0.5rem auto 1rem auto;
+}
+
+.background-image {
+    margin: auto;
+    text-align: center;
 }
 
 /* form set up */
