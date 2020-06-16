@@ -340,7 +340,7 @@ footer img {
         grid-template-columns: 35% 30% 35%;
         margin-top: 3rem;
         /* set up of bg scooter image to ensure overflow */
-        background-image: url(images/bg-image/scooter.svg);
+        background-image: url(../images/bg-image/scooter.svg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 675px;
