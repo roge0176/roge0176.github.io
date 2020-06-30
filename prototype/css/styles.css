@@ -362,6 +362,7 @@ input[type="text"] {
 .gallerygrid {
     width: 80%;
     margin: auto;
+    padding-bottom: 3rem;
 }
 
 .gallerymain .container {
