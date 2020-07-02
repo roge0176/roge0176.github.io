@@ -256,7 +256,7 @@ td {
 
 /* styling of the animation */
 
-.loading {
+.animation {
     position: fixed;
     top: 0;
     left: 0;
