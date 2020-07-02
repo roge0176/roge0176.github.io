@@ -129,6 +129,59 @@ a:visited {
     font-weight: 200;
 }
 
+.homemain h3 {
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: white;
+}
+
+.animation {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, transparent, transparent 40%, white);
+    margin: auto;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+    background: black;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.homemain h3 {
+    position: relative;
+    top: -126px;
+    margin-bottom: -2rem;
+}
+
+
 /* footer styling */
 
 footer {
@@ -236,8 +289,11 @@ td {
 /* styling of filler image making sure it doesn't get too big */
 
 .filler {
-	max-width: 608px;
-	margin: 4rem auto 0 auto;
+    margin: 4rem auto 0 auto;   
+}
+
+.filler img {
+    max-width: 100%;
 }
 
 /* styling of info text */
@@ -254,55 +310,6 @@ td {
     font-size: 2rem;
 }
 
-/* styling of the animation */
-
-.animation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .bar {
-    width: 10px;
-    height: 10px;
-    margin: 0 2px;
-    
-    background-color: #333;
-  }
-  
-  .bar:nth-child(1) {
-    animation: grow 2s infinite 0.25s linear;
-  }
-  
-  .bar:nth-child(2) {
-    animation: grow 2s infinite 0.35s linear;
-  }
-  
-  .bar:nth-child(3) {
-    animation: grow 2s infinite 0.45s linear;
-  }
-  
-  .bar:nth-child(4) {
-    animation: grow 2s infinite 0.55s linear;
-  }
-  
-  .bar:nth-child(5) {
-    animation: grow 2s infinite 0.65s linear;
-  }
-  
-  
-  
-  @keyframes grow {
-    0% { height: 1px; background-color: #333; }
-    50% { height: 50px; background-color: #999; }
-    100% { height: 1px; background-color: #333;}
-  }
 
 /* styling of the contact page */
 /* start with styling of contact form*/
