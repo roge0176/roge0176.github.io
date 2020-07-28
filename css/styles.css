@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+/* we start with styling of mobile view */
+/* first is home page */
+
+.homegrid {
+    display: grid;
+}
+
+.homecontainer {
+    width: 100%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.homecontainer p {
+    background-color: black;
+    color: white;
+    margin: 0rem;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.homegrid a:link,
+.homegrid a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.homegrid a:hover,
+.homegrid a:active {
+	text-decoration: none!important;
+    color: white;
+}
+
+
+/* design of laptop view */
+
+@media (min-width: 1024px) {
+
+    .homegrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .homecontainer {
+        width: 100%;
+    }
+}
