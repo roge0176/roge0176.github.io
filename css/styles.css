@@ -35,13 +35,13 @@ footer a:active {
 /* next is styling of home page */
 
 .homeimage1 {
-    background-image: url(../images/webmobile.png);
+    background-image: url(../images/pathway.jpg);
     height: 569px;
     background-size: cover;
 }
 
 .homeimage2 {
-    background-image: url(../images/artworkshome.jpg);
+    background-image: url(../images/webmobile.png);
     height: 569px;
     background-size: cover;
 }
@@ -913,7 +913,7 @@ input[type="text"] {
 
     .workfiller {
         height: 645px;
-        
+
     }
 
     /* styling of all the artworks pages */
