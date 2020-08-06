@@ -1,51 +1,926 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
 
 /* we start with styling of mobile view */
-/* first is home page */
+/* first is general navbar and footer styling */
 
-.homegrid {
+nav a {
+    font-size: 0.8rem;
+}
+
+.footernav {
     display: grid;
+    grid-template-columns: 50px 50px 80px auto 45px 75px 45px;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
 }
 
-.homecontainer {
-    width: 100%;
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	color:#5C6260;
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
+footer a:hover,
+footer a:active {
+	text-decoration: none;
+    color: #5C6260;
 }
 
-.homecontainer p {
-    background-color: black;
+/* next is styling of home page */
+
+.homeimage1 {
+    background-image: url(../images/webmobile.png);
+    height: 569px;
+    background-size: cover;
+}
+
+.homeimage2 {
+    background-image: url(../images/artworkshome.jpg);
+    height: 569px;
+    background-size: cover;
+}
+
+.homecontent button {
+    background-color: white;
+    color: #1F1F1F;
+    border: 2px solid white;
+    border-radius: 5px;
+    border-width: thin;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-weight: 300;
+    transition-duration: 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.homecontent button:hover {
     color: white;
-    margin: 0rem;
-    padding: 0.75rem;
+    background-color: #1F1F1F;
+    border-color: #1F1F1F;
+}
+
+
+.homep {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     text-align: center;
 }
 
-.homegrid a:link,
-.homegrid a:visited {
-	text-decoration: none;
-	color: white;
+
+/* styling of web projects page */
+
+
+.webcontent {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
 }
 
-.homegrid a:hover,
-.homegrid a:active {
-	text-decoration: none!important;
+.web1, .web2, .web3 {
+    height: 470px;
+}
+
+.webproject1 {
+    background-image: url(../images/cravingsmobile.png);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.4);
+    transition: all .5s;
+}
+
+.webproject1:hover,
+.webproject1:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject2 {
+    background-image: url(../images/bootstrapmobile.png);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.webproject2:hover,
+.webproject2:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject3 {
+    background-image: url(../images/webmobile.png);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.webproject3:hover,
+.webproject3:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+/* styling of artwork page */
+
+.artworkcontent {
+    width: 80%;
+    margin: 2rem auto 4rem auto;
+}
+
+.artlink1, .artlink2, .artlink3, .artlink4, .artlink5, .artlink6, .artlink7 {
+    height: 470px;
+}
+
+.spartan, .cityland, .citygoddess, .encounter, .blueworld, .pathway, .warpsunset {
+    height: 470px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    transition: all .5s;
+}
+
+.spartan {
+    background-image: url(../images/spartan.png);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.cityland {
+    background-image: url(../images/cityland.png);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.citygoddess {
+    background-image: url(../images/citygoddess.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.encounter {
+    background-image: url(../images/encounter.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.blueworld {
+    background-image: url(../images/blueworld.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.pathway {
+    background-image: url(../images/pathway.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.warpsunset {
+    background-image: url(../images/warpsunset.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.spartan:hover,
+.spartan:focus,
+.cityland:hover,
+.cityland:focus,
+.citygoddess:hover,
+.citygoddess:focus,
+.encounter:hover,
+.encounter:focus,
+.blueworld:hover,
+.blueworld:focus,
+.pathway:hover,
+.pathway:focus,
+.warpsunset:hover,
+.warpsunset:focus {
+    transform: scale(1.02);
+}
+
+/* styling of portfolio page */
+
+.portfoliocontent {
+    width: 80%;
+    margin: 2rem auto 4rem auto;
+}
+
+.webfiller {
+    background-image: url(../images/webmobile.png);
+    height: 465px;
+    background-size: cover;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.09);
+    transition: all .5s;
+}
+
+.webtext, .artworktext {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.webtext {
+    margin-bottom: 4rem;
+}
+
+.webtext p, .artworktext p {
+    margin-top: 1rem;
+}
+
+.webtext button, .artworktext button {
+    background-color: white;
+    color: #1F1F1F;
+    border: 2px solid #1F1F1F;
+    border-radius: 5px;
+    border-width: thin;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-weight: 300;
+    transition-duration: 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.webtext button:hover,
+.artworktext button:hover {
+    background-color: #1F1F1F;
     color: white;
 }
+
+.artworkfiller {
+    background-image: url(../images/cityland.png);
+    height: 465px;
+    background-size: cover;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.29);
+    transition: all .5s;
+}
+
+.webfiller:focus,
+.webfiller:hover,
+.artworkfiller:focus,
+.artworkfiller:hover {
+    transform: scale(1.02);
+}
+
+/* styling of about page */
+
+.aboutcontent {
+    width: 80%;
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+}
+
+.aboutfiller {
+    background-image: url(../images/aboutfiller.png);
+    height: 500px;
+    background-size: cover;
+    background-position: -150px center;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.1);
+    transition: all .5s;
+}
+
+.ownerpicture {
+    background-image: url(../images/ownerpicture.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 2rem auto 2rem auto;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.aboutfiller2 {
+    background-image: url(../images/whatsnext.png);
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 2rem auto 2rem auto;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.2); */
+    transition: all .5s;
+}
+
+.aboutfiller:hover,
+.aboutfiller2:hover,
+.ownerpicture:hover {
+    transform: scale(1.02);
+}
+
+.aboutcontent h2 {
+    margin-bottom: 2rem;
+}
+
+.abouttext1, .abouttext2{
+    margin-bottom: 4rem;
+}
+
+/* styling of work with me page */
+
+.workcontent {
+    width: 90%;
+    margin: 0rem auto 2rem auto;
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+}
+
+fieldset {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+fieldset label {
+    display: block;
+    margin-bottom: 0.7rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
+/* making sure the box is big enough to click in mobile view */
+input[type="text"] {
+    height: 35px;
+    border-style: #5C6260;
+    border-radius: 15px;
+    border-width: 1px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+  
+#message {
+    padding: 0.5rem 0rem 7rem 0.6rem;
+    border-style: #5C6260;
+    border-radius: 15px;
+  }
+
+#message textarea {
+    vertical-align: top;
+  }
+  
+/* spread over screen page */
+#firstname, #lastname, #phone, #email, #message {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+/* styling of buttons */
+.workcontent button {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    border-style: #5C6260;
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    background: white;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+
+.workcontent button:hover {
+    background-color: #1F1F1F;
+    color: white;
+  }
+
+.worktext {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+.worktext a {
+      color: black;
+      font-weight: bold;
+  }
+
+.worktext a:focus,
+.worktext a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+.workfiller {
+    background-image: url(../images/workfiller.png);
+    height: 580px;
+    background-size: cover;
+    margin: 3rem auto 4rem auto;
+    width: 90%;
+    transition: 0.5s;
+  }
+
+.workfiller:hover {
+    transform: scale(1.02);
+}
+
+
+/* styling of all the artworks pages */
+/* starting with spartan page */
+
+.indartcontent {
+    width: 80%;
+    margin: 2rem auto 4rem auto;
+}
+
+.indartwork {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    margin-bottom: 3rem;
+}
+
+.indartwork:hover {
+    transform: scale(1.02);
+}
+
+.indarttext h2 {
+    margin-bottom: 0.4rem;
+}
+
+.caption {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* design and styling of tablet view */
+
+@media (min-width: 768px) {
+
+    /* footer font size change */
+
+    .footernav {
+        grid-template-columns: 60px 60px 90px auto 55px 85px 55px;
+    }
+
+    /* home page change of style */
+
+    .homeimage2 {
+        background-image: url(../images/webproject1.png);
+    }
+
+    /* styling of web projects page */
+
+    .webproject1 {
+        background-image: url(../images/cravingtablet1.png);
+    }
+
+    .webproject2 {
+        background-image: url(../images/bootstrapweb1.png);
+    }
+
+    .webproject3 {
+        background-image: url(../images/webproject.png);
+    }
+
+    /* styling of artwork page */
+
+    .artworkcontent {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 48% 2% 48%;
+        grid-template-rows: 300px 20px 670px 20px 300px 20px 670px 20px 300px;
+        margin-bottom: 5rem;
+    }
+
+    .cityland, .citygoddess, .blueworld, .pathway {
+        height: 670px;
+    }
+
+    .spartan {
+        height: 300px;
+        background-position: center -450px;
+    }
+
+    .encounter {
+        height: 300px;
+    }
+
+    .warpsunset {
+        height: 300px;
+    }
+
+    .artlink1 {
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .artlink2 {
+        height: 670px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .artlink3 {
+        height: 670px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .artlink4 {
+        height: 300px;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .artlink5 {
+        height: 670px;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .artlink6 {
+        height: 670px;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .artlink7 {
+        width: 100%;
+        height: 300px;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    /* styling portfolio page */
+
+    .webfiller {
+        height: 520px;
+        background-image: url(../images/webproject2.png);
+    }
+
+    .artworkfiller {
+        background-position: center -60px;
+        height: 520px;
+    }
+
+    /* styling of about page */
+
+    .aboutfiller {
+        background-position: center center;
+    }
+
+    /* styling of work with me page */
+
+    .workcontent {
+        width:80%;
+        
+    }
+
+    .section {
+        display: grid;
+        grid-template-columns: 46% 46%;
+        grid-column-gap: 8%;
+    }
+
+    .worktext {
+        width: 100%;
+    }
+
+    .workfiller {
+        height: 700px;
+        width: 80%;
+    }
+
+    /* styling of all the artworks pages */
+    /* starting with spartan page */
+
+    .indartcontent {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: end;
+    }
+
+    .spartanartwork {
+        margin-bottom: 0rem;
+    }
+
+    .artworkleft {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .artworkright {
+        width: 42%;
+        margin-left: 8%;
+    }
+
+}
+
 
 
 /* design of laptop view */
 
 @media (min-width: 1024px) {
 
-    .homegrid {
-        grid-template-columns: repeat(2, 1fr);
+    /* change style of footer */
+
+    .footernav {
+        grid-template-columns: 90px 90px 120px auto 85px 115px 85px;
+        font-size: 0.8rem;
+        width: 98%;
     }
 
-    .homecontainer {
-        width: 100%;
+    /* styling of homepage */
+
+    .homeimage1 {
+        background-image: url(../images/pathway.jpg);
+        background-position: center -550px;
     }
+
+    .homeimage2 {
+        background-image: url(../images/webprojects.png);
+        background-position: center -10px;
+    }
+
+
+
+
+    /* styling of web project page */
+
+    .webproject1 {
+        background-image: url(../images/cravinglaptop1.png);
+    }
+
+    .webproject2 {
+        background-image: url(../images/bootstrapweb.png);
+    }
+
+    .webproject3 {
+        background-image: url(../images/webprojects.png);
+    }
+
+    /* styling of artworks view */
+
+    .artworkcontent {
+        display: grid;
+        grid-template-columns: 32% 30px 15% 30px 15% 30px 32%;
+        grid-template-rows: 300px 30px 300px 30px 400px 30px 300px 30px 300px;
+    }
+
+    .spartan {
+        height: 300px;
+        background-position: center -200px;
+    }
+
+    .cityland, .blueworld {
+        height: 630px;
+    }
+
+    .citygoddess {
+        height: 400px;
+    }
+
+    .encounter, .warpsunset {
+        height: 300px;
+    }
+
+    .pathway {
+        height: 300px;
+        background-position: center -315px;
+    }
+    
+    .artlink1 {
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-end: 2;
+        margin: 0;
+    }
+
+    .artlink2 {
+        height: 630px;
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        margin: 0;
+    }
+
+    .artlink3 {
+        height: 400px;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 9;
+        margin: 0;
+    }
+
+    .artlink6 {
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin: 0;
+    }
+
+    .artlink5 {
+        height: 630px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        margin: 0;
+    }
+
+    .artlink4 {
+        height: 300px;
+        background-position: center -300px;
+        grid-column-start: 3;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        margin: 0;
+    }
+
+    .artlink7 {
+        height: 300px;
+        background-position: center -200px;
+        grid-column-start: 3;
+        grid-column-end: 9;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        margin: 0;
+    }
+
+    /* styling of portfolio page */
+
+    .portfoliocontent {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .webfiller {
+        width: 48%;
+        margin-right: 2%;
+        order: 1;
+    }
+
+    .artworkfiller {
+        width: 48%;
+        margin-left: 2%;
+        order: 4;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .webtext {
+        width: 48%;
+        margin-left: 2%;
+        text-align: center;
+        order: 2;
+    }
+
+    .artworktext {
+        width: 48%;
+        margin-right: 2%;
+        order: 3;
+        padding-top: 4rem;
+        text-align: center;
+    }
+
+    .webtext h2, .artworktext h2 {
+        margin-bottom: 2rem;
+    }
+
+    .webtext p, .artworktext p {
+        margin-bottom: 2rem;
+    }
+
+    .webtext button, .artworktext button {
+        font-size: 1.5rem;
+    }
+
+    /* styling of about page */
+
+    .aboutcontent {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .aboutfiller {
+        width: 48%;
+        margin-right: 2%;
+        order: 5;
+    }
+
+    .abouttext1 {
+        width: 48%;
+        margin-left: 2%;
+        order: 2;
+        margin-bottom: 0rem;
+    }
+
+    .ownerpicture {
+        width: 48%;
+        height: 450px;
+        margin-right: 2%;
+        margin-left: 0;
+        order: 1;
+    }
+
+    .abouttext2 {
+        width: 48%;
+        margin-right: 2%;
+        margin-top: 2rem;
+        order: 3;
+        margin-bottom: 0rem;
+    }
+
+    .aboutfiller2 {
+        order: 4;
+        width: 48%;
+        margin-left: 2%;
+        margin-right: 0;
+    }
+
+    .abouttext3 {
+        width: 48%;
+        order: 6;
+        margin-left: 2%;
+    }
+
+    /* styling of work with me page */
+
+    .workcontent {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 48% 2% 48%;
+    }
+
+    .workleftsection {
+        width: 100%;
+        grid-column-start: 1;
+        margin-top: 1rem;
+    }
+
+    .workrightsection {
+        grid-column-start: 3;
+    }
+
+    .workfiller {
+        height: 645px;
+    }
+
+    /* styling of all the artworks pages */
+    /* starting with spartan page */
+
+    .artworkleft {
+        width: 42%;
+        margin-right: 8%;
+    }
+
 }
