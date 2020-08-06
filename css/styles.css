@@ -35,13 +35,13 @@ footer a:active {
 /* next is styling of home page */
 
 .homeimage1 {
-    background-image: url(../images/pathway2.jpg);
+    background-image: url(../images/pathway.jpg);
     height: 569px;
     background-size: cover;
 }
 
 .homeimage2 {
-    background-image: url(../images/webmobile.png);
+    background-image: url(../images/webmobile.jpg);
     height: 569px;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ footer a:active {
 }
 
 .webproject1 {
-    background-image: url(../images/cravingsmobile.png);
+    background-image: url(../images/cravingsmobile.jpg);
     height: 470px;
     background-size: cover;
     margin-bottom: 2rem;
@@ -106,7 +106,7 @@ footer a:active {
 }
 
 .webproject2 {
-    background-image: url(../images/bootstrapmobile.png);
+    background-image: url(../images/bootstrapmobile.jpg);
     height: 470px;
     background-size: cover;
     margin-bottom: 2rem;
@@ -122,7 +122,7 @@ footer a:active {
 }
 
 .webproject3 {
-    background-image: url(../images/webmobile.png);
+    background-image: url(../images/webmobile.jpg);
     height: 470px;
     background-size: cover;
     margin-bottom: 2rem;
@@ -171,35 +171,35 @@ footer a:active {
 }
 
 .citygoddess {
-    background-image: url(../images/citygoddess2.jpg);
+    background-image: url(../images/citygoddess.jpg);
     margin-top: 1rem;
     margin-bottom: 1rem;
     /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
 }
 
 .encounter {
-    background-image: url(../images/encounter2.jpg);
+    background-image: url(../images/encounter.jpg);
     margin-top: 1rem;
     margin-bottom: 1rem;
     /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
 }
 
 .blueworld {
-    background-image: url(../images/blueworld2.jpg);
+    background-image: url(../images/blueworld.jpg);
     margin-top: 1rem;
     margin-bottom: 1rem;
     /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
 }
 
 .pathway {
-    background-image: url(../images/pathway2.jpg);
+    background-image: url(../images/pathway.jpg);
     margin-top: 1rem;
     margin-bottom: 1rem;
     /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
 }
 
 .warpsunset {
-    background-image: url(../images/warpsunset2.jpg);
+    background-image: url(../images/warpsunset.jpg);
     margin-top: 1rem;
     margin-bottom: 1rem;
     /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
@@ -230,7 +230,7 @@ footer a:active {
 }
 
 .webfiller {
-    background-image: url(../images/webmobile.png);
+    background-image: url(../images/webmobile.jpg);
     height: 465px;
     background-size: cover;
     box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.09);
@@ -270,7 +270,7 @@ footer a:active {
 }
 
 .artworkfiller {
-    background-image: url(../images/cityland.png);
+    background-image: url(../images/cityland.jpg);
     height: 465px;
     background-size: cover;
     box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.29);
@@ -293,7 +293,7 @@ footer a:active {
 }
 
 .aboutfiller {
-    background-image: url(../images/aboutfiller.png);
+    background-image: url(../images/aboutfiller.jpg);
     height: 500px;
     background-size: cover;
     background-position: -150px center;
@@ -305,7 +305,7 @@ footer a:active {
 }
 
 .ownerpicture {
-    background-image: url(../images/ownerpicture.png);
+    background-image: url(../images/ownerpicture.jpg);
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -316,7 +316,7 @@ footer a:active {
 }
 
 .aboutfiller2 {
-    background-image: url(../images/whatsnext.png);
+    background-image: url(../images/whatsnext.jpg);
     height: 450px;
     background-size: cover;
     background-position: center center;
@@ -432,7 +432,7 @@ input[type="text"] {
   }
 
 .workfiller {
-    background-image: url(../images/workfiller.png);
+    background-image: url(../images/workfiller.jpg);
     height: 580px;
     background-size: cover;
     margin: 3rem auto 4rem auto;
@@ -489,21 +489,21 @@ input[type="text"] {
     /* home page change of style */
 
     .homeimage2 {
-        background-image: url(../images/webproject1.png);
+        background-image: url(../images/webproject1.jpg);
     }
 
     /* styling of web projects page */
 
     .webproject1 {
-        background-image: url(../images/cravingtablet1.png);
+        background-image: url(..//images/cravingtablet1.jpg);
     }
 
     .webproject2 {
-        background-image: url(../images/bootstrapweb1.png);
+        background-image: url(../images/boostraptablet.jpg);
     }
 
     .webproject3 {
-        background-image: url(../images/webproject.png);
+        background-image: url(../images/webproject.jpg);
     }
 
     /* styling of artwork page */
@@ -594,7 +594,7 @@ input[type="text"] {
 
     .webfiller {
         height: 520px;
-        background-image: url(../images/webproject2.png);
+        background-image: url(../images/webproject2.jpg);
     }
 
     .artworkfiller {
@@ -678,7 +678,7 @@ input[type="text"] {
     }
 
     .homeimage2 {
-        background-image: url(../images/webprojects.png);
+        background-image: url(../images/webprojectlarge.jpg);
         background-position: center -10px;
     }
 
@@ -688,15 +688,15 @@ input[type="text"] {
     /* styling of web project page */
 
     .webproject1 {
-        background-image: url(../images/cravinglaptop1.png);
+        background-image: url(../images/cravinglaptop.jpg);
     }
 
     .webproject2 {
-        background-image: url(../images/bootstrapweb.png);
+        background-image: url(../images/bootstrapweb.jpg);
     }
 
     .webproject3 {
-        background-image: url(../images/webprojects.png);
+        background-image: url(../images/webprojectlarge.jpg);
     }
 
     /* styling of artworks view */
