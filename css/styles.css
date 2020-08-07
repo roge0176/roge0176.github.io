@@ -12,12 +12,6 @@ p {
     line-height: 1.7rem;
 }
 
-
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-}
-
 nav a {
     font-size: 0.8rem;
 }
@@ -25,6 +19,9 @@ nav a {
 nav h3 {
     font-size: 1rem;
     margin-left: -2.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0rem;
 }
 
 .footernav {
