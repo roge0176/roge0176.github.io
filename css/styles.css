@@ -56,11 +56,10 @@ footer a:active {
     background-image: url(../images/pathway.jpg);
     height: 569px;
     background-size: cover;
-    background-position: center center;
 }
 
 .homeimage2 {
-    background-image: url(../images/webmobile.jpg);
+    background-image: url(../images/cravingtablet1.jpg);
     height: 569px;
     background-size: cover;
 }
@@ -75,7 +74,7 @@ footer a:active {
     font-weight: 300;
     transition-duration: 0.5s;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .homecontent button:hover {
@@ -516,8 +515,8 @@ input[type="text"] {
 
     /* home page change of style */
 
-    .homeimage2 {
-        background-image: url(../images/webproject1.jpg);
+    .homeimage1 {
+        background-position: center -10px;
     }
 
     /* styling of web projects page */
@@ -706,7 +705,7 @@ input[type="text"] {
     }
 
     .homeimage2 {
-        background-image: url(../images/webprojectlarge.jpg);
+        background-image: url(../images/cravinglaptop.jpg);
         background-position: center -10px;
     }
 
