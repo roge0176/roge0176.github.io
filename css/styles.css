@@ -3,8 +3,14 @@
 /* we start with styling of mobile view */
 /* first is general navbar and footer styling */
 
+
 nav a {
     font-size: 0.8rem;
+}
+
+nav h3 {
+    font-size: 1rem;
+    margin-left: -2.8rem;
 }
 
 .footernav {
@@ -73,6 +79,7 @@ footer a:active {
     margin-top: 4rem;
     margin-bottom: 5rem;
     text-align: center;
+    line-height: 1.6rem;
 }
 
 
@@ -240,6 +247,7 @@ footer a:active {
 .webtext, .artworktext {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .webtext {
@@ -290,6 +298,7 @@ footer a:active {
     width: 80%;
     margin: 2rem auto 1rem auto;
     text-align: center;
+    line-height: 1.6rem;
 }
 
 .aboutfiller {
@@ -451,6 +460,7 @@ input[type="text"] {
 .indartcontent {
     width: 80%;
     margin: 2rem auto 4rem auto;
+    line-height: 1.6rem;
 }
 
 .indartwork {
@@ -479,6 +489,11 @@ input[type="text"] {
 /* design and styling of tablet view */
 
 @media (min-width: 768px) {
+
+    nav h3 {
+        font-size: 1rem;
+        margin-left: 3%;
+    }
 
     /* footer font size change */
 
