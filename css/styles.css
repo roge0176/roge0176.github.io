@@ -1,8 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Raleway:wght@600&family=Quicksand&display=swap');
 
 /* we start with styling of mobile view */
 /* first is general navbar and footer styling */
 
+h1, h2, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.7rem;
+}
+
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
 
 nav a {
     font-size: 0.8rem;
@@ -23,6 +37,7 @@ nav h3 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
