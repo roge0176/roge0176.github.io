@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Raleway:wght@600&family=Quicksand&display=swap');
 
 /* we start with styling of mobile view */
-/* first is general navbar and footer styling */
+/* styling of fonts for website */
 
 h1, h2, button {
     font-family: 'Montserrat', sans-serif;
@@ -11,6 +11,8 @@ p {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.7rem;
 }
+
+/* first is general navbar and footer styling */
 
 nav a {
     font-size: 0.8rem;
@@ -51,6 +53,7 @@ footer a:active {
 }
 
 /* next is styling of home page */
+/* styling of caroussel images */
 
 .homeimage1 {
     background-image: url(../images/pathway.jpg);
@@ -63,6 +66,8 @@ footer a:active {
     height: 569px;
     background-size: cover;
 }
+
+/* styling of caroussel buttons */
 
 .homecontent button {
     background-color: white;
@@ -77,13 +82,14 @@ footer a:active {
     margin-bottom: 0rem;
 }
 
+/* addition of animation for hover */
 .homecontent button:hover {
     color: white;
     background-color: #1F1F1F;
     border-color: #1F1F1F;
 }
 
-
+/* styling of home paragraphe */
 .homep {
     width: 80%;
     margin-left: auto;
@@ -97,17 +103,19 @@ footer a:active {
 
 /* styling of web projects page */
 
-
+/* set up of width for content */
 .webcontent {
     width: 80%;
     margin: auto;
     margin-bottom: 4rem;
 }
 
+/* set up height for all image link container */
 .web1, .web2, .web3 {
     height: 470px;
 }
 
+/* set up of background iamge for all web projects boxes */
 .webproject1 {
     background-image: url(../images/cravingsmobile.jpg);
     height: 470px;
@@ -118,6 +126,7 @@ footer a:active {
     transition: all .5s;
 }
 
+/* addition of hover animation */
 .webproject1:hover,
 .webproject1:focus {
     filter: blur(2px);
@@ -157,11 +166,14 @@ footer a:active {
 }
 
 /* styling of artwork page */
+/* set up width of content */
 
 .artworkcontent {
     width: 80%;
     margin: 2rem auto 4rem auto;
 }
+
+/* set up height for all artworks containers and links */
 
 .artlink1, .artlink2, .artlink3, .artlink4, .artlink5, .artlink6, .artlink7 {
     height: 470px;
@@ -174,6 +186,8 @@ footer a:active {
     background-position: center center;
     transition: all .5s;
 }
+
+/* set up background image for all containers */
 
 .spartan {
     background-image: url(../images/spartan.jpg);
@@ -224,6 +238,8 @@ footer a:active {
     /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
 }
 
+/* hover effect */
+
 .spartan:hover,
 .spartan:focus,
 .cityland:hover,
@@ -242,12 +258,14 @@ footer a:active {
 }
 
 /* styling of portfolio page */
+/* set up width content */
 
 .portfoliocontent {
     width: 80%;
     margin: 2rem auto 4rem auto;
 }
 
+/* background for filler */
 .webfiller {
     background-image: url(../images/webmobile.jpg);
     height: 465px;
@@ -256,6 +274,7 @@ footer a:active {
     transition: all .5s;
 }
 
+/* text styling */
 .webtext, .artworktext {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -268,6 +287,8 @@ footer a:active {
 .webtext p, .artworktext p {
     margin-top: 1rem;
 }
+
+/* button styling */
 
 .webtext button, .artworktext button {
     background-color: white;
@@ -282,12 +303,14 @@ footer a:active {
     margin-bottom: 1rem;
 }
 
+/* hover effect set up */
 .webtext button:hover,
 .artworktext button:hover {
     background-color: #1F1F1F;
     color: white;
 }
 
+/* filler for artwork height and bg set up */
 .artworkfiller {
     background-image: url(../images/cityland.jpg);
     height: 465px;
@@ -305,6 +328,7 @@ footer a:active {
 }
 
 /* styling of about page */
+/* width for content */
 
 .aboutcontent {
     width: 80%;
@@ -313,6 +337,7 @@ footer a:active {
     line-height: 1.6rem;
 }
 
+/* set up of height andbackground for all filler elements */
 .aboutfiller {
     background-image: url(../images/aboutfiller.jpg);
     height: 500px;
@@ -347,6 +372,8 @@ footer a:active {
     transition: all .5s;
 }
 
+/* hover effect */
+
 .aboutfiller:hover,
 .aboutfiller2:hover,
 .ownerpicture:hover {
@@ -362,6 +389,7 @@ footer a:active {
 }
 
 /* styling of work with me page */
+/* content width */
 
 .workcontent {
     width: 90%;
@@ -369,10 +397,14 @@ footer a:active {
     text-align: center;
 }
 
+/* form width inside of content */
+
 form {
     width: 60%;
     margin: auto;
 }
+
+/* sizing of form elements */
 
 fieldset {
     margin-top: 1rem;
@@ -406,7 +438,7 @@ input[type="text"] {
     vertical-align: top;
   }
   
-/* spread over screen page */
+/* spread over content width */
 #firstname, #lastname, #phone, #email, #message {
     width: 100%;
     margin-top: 0.5rem;
@@ -428,6 +460,8 @@ input[type="text"] {
     cursor: pointer;
     transition-duration: 0.5s;
   }
+
+/* hover effect */
 
 .workcontent button:hover {
     background-color: #1F1F1F;
@@ -452,6 +486,8 @@ input[type="text"] {
     text-decoration: none;
   }
 
+/* filler styling and effect */
+
 .workfiller {
     background-image: url(../images/workfiller.jpg);
     background-position: center;
@@ -467,8 +503,7 @@ input[type="text"] {
 }
 
 
-/* styling of all the artworks pages */
-/* starting with spartan page */
+/* styling of all the individual artwork pages */
 
 .indartcontent {
     width: 80%;
@@ -521,6 +556,7 @@ input[type="text"] {
     }
 
     /* styling of web projects page */
+    /* change of background images */
 
     .webproject1 {
         background-image: url(..//images/cravingtablet1.jpg);
@@ -535,6 +571,7 @@ input[type="text"] {
     }
 
     /* styling of artwork page */
+    /* change of width and set up of grid for gallery of artworks */
 
     .artworkcontent {
         width: 90%;
@@ -543,6 +580,8 @@ input[type="text"] {
         grid-template-rows: 300px 20px 670px 20px 300px 20px 670px 20px 300px;
         margin-bottom: 5rem;
     }
+
+    /* change of height */
 
     .cityland, .citygoddess, .blueworld, .pathway {
         height: 670px;
@@ -560,6 +599,8 @@ input[type="text"] {
     .warpsunset {
         height: 300px;
     }
+
+    /* placement of all items on this grid */
 
     .artlink1 {
         height: 300px;
@@ -619,6 +660,7 @@ input[type="text"] {
     }
 
     /* styling portfolio page */
+    /* change of height for filler and bg */
 
     .webfiller {
         height: 520px;
@@ -637,11 +679,14 @@ input[type="text"] {
     }
 
     /* styling of work with me page */
+    /* change of width */
 
     .workcontent {
         width:80%;
         
     }
+
+    /* set up of grid between filler and form/link */
 
     .section {
         display: grid;
@@ -672,6 +717,8 @@ input[type="text"] {
         margin-bottom: 0rem;
     }
 
+    /* set up of 2 sections to split screen in 2 between artwork and descriptive text */
+
     .artworkleft {
         width: 48%;
         margin-right: 2%;
@@ -699,6 +746,7 @@ input[type="text"] {
     }
 
     /* styling of homepage */
+    /* change bg image for carousssel */
 
     .homeimage1 {
         background-image: url(../images/pathway.jpg);
@@ -714,6 +762,7 @@ input[type="text"] {
 
 
     /* styling of web project page */
+    /* change of bg image */
 
     .webproject1 {
         background-image: url(../images/cravinglaptop.jpg);
@@ -728,12 +777,15 @@ input[type="text"] {
     }
 
     /* styling of artworks view */
+    /* set up of new grid for new gallery design */
 
     .artworkcontent {
         display: grid;
         grid-template-columns: 32% 30px 15% 30px 15% 30px 32%;
         grid-template-rows: 300px 30px 300px 30px 400px 30px 300px 30px 300px;
     }
+
+    /* change of domensions of artworks */
 
     .spartan {
         height: 300px;
@@ -756,6 +808,8 @@ input[type="text"] {
         height: 300px;
         background-position: center -315px;
     }
+
+    /* positioning of containers */
     
     .artlink1 {
         height: 300px;
@@ -822,6 +876,7 @@ input[type="text"] {
     }
 
     /* styling of portfolio page */
+    /* flex display and placement on the screen  */
 
     .portfoliocontent {
         display: flex;
@@ -858,6 +913,8 @@ input[type="text"] {
         text-align: center;
     }
 
+    /* change of margins */
+
     .webtext h2, .artworktext h2 {
         margin-bottom: 2rem;
     }
@@ -871,6 +928,7 @@ input[type="text"] {
     }
 
     /* styling of about page */
+    /* change of width for content */
 
     .aboutcontent {
         width: 80%;
@@ -878,6 +936,8 @@ input[type="text"] {
         flex-wrap: wrap;
         align-items: center;
     }
+
+    /* change of width for elements and placement on flex display */
 
     .aboutfiller {
         width: 48%;
@@ -922,12 +982,15 @@ input[type="text"] {
     }
 
     /* styling of work with me page */
+    /* new grid display  */
 
     .workcontent {
         display: grid;
         width: 100%;
         grid-template-columns: 48% 2% 48%;
     }
+
+    /* change width of elements and placement on grid */
 
     .workleftsection {
         width: 100%;
