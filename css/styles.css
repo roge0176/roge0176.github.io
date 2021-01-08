@@ -111,13 +111,13 @@ footer a:active {
 }
 
 /* set up height for all image link container */
-.web1, .web2, .web3 {
+.web1, .web2, .web3, .web4, .web5 {
     height: 470px;
 }
 
 /* set up of background iamge for all web projects boxes */
 .webproject1 {
-    background-image: url(../images/cravingsmobile.jpg);
+    background-image: url(../images/finechocolatemob.jpg);
     height: 470px;
     background-size: cover;
     margin-bottom: 2rem;
@@ -134,12 +134,12 @@ footer a:active {
 }
 
 .webproject2 {
-    background-image: url(../images/bootstrapmobile.jpg);
+    background-image: url(../images/waterwoodmob.jpg);
     height: 470px;
     background-size: cover;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.4);
     transition: all .5s;
 }
 
@@ -150,6 +150,38 @@ footer a:active {
 }
 
 .webproject3 {
+    background-image: url(../images/cravingsmobile.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.4);
+    transition: all .5s;
+}
+
+.webproject3:hover,
+.webproject3:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject4 {
+    background-image: url(../images/bootstrapmobile.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.webproject4:hover,
+.webproject4:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject5 {
     background-image: url(../images/webmobile.jpg);
     height: 470px;
     background-size: cover;
@@ -159,11 +191,12 @@ footer a:active {
     transition: all .5s;
 }
 
-.webproject3:hover,
-.webproject3:focus {
+.webproject5:hover,
+.webproject5:focus {
     filter: blur(2px);
     transform: scale(1.02);
 }
+
 
 /* styling of artwork page */
 /* set up width of content */
@@ -559,14 +592,22 @@ input[type="text"] {
     /* change of background images */
 
     .webproject1 {
-        background-image: url(..//images/cravingtablet1.jpg);
+        background-image: url(..//images/finechocolatetab.jpg);
     }
 
     .webproject2 {
-        background-image: url(../images/boostraptablet.jpg);
+        background-image: url(../images/waterwoodtab.jpg);
     }
 
     .webproject3 {
+        background-image: url(../images/cravingtablet1.jpg);
+    }
+
+    .webproject4 {
+        background-image: url(../images/boostraptablet.jpg);
+    }
+
+    .webproject5 {
         background-image: url(../images/webproject.jpg);
     }
 
@@ -765,14 +806,22 @@ input[type="text"] {
     /* change of bg image */
 
     .webproject1 {
-        background-image: url(../images/cravinglaptop.jpg);
+        background-image: url(../images/finechocolateweb.jpg);
     }
 
     .webproject2 {
-        background-image: url(../images/bootstrapweb.jpg);
+        background-image: url(../images/waterwoodweb.jpg);
     }
 
     .webproject3 {
+        background-image: url(../images/cravinglaptop.jpg);
+    }
+
+    .webproject4 {
+        background-image: url(../images/bootstrapweb.jpg);
+    }
+
+    .webproject5 {
         background-image: url(../images/webprojectlarge.jpg);
     }
 
