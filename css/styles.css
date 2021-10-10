@@ -1,0 +1,1067 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Raleway:wght@600&family=Quicksand&display=swap');
+
+/* we start with styling of mobile view */
+/* styling of fonts for website */
+
+h1, h2, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.7rem;
+}
+
+/* first is general navbar and footer styling */
+
+nav a {
+    font-size: 0.8rem;
+}
+
+nav h3 {
+    font-size: 1rem;
+    margin-left: -2.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+
+.footernav {
+    display: grid;
+    grid-template-columns: 50px 50px 80px auto 45px 75px 45px;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer a:link,
+footer a:visited {
+	text-decoration: none;
+	color:#5C6260;
+}
+
+footer a:hover,
+footer a:active {
+	text-decoration: none;
+    color: #5C6260;
+}
+
+/* next is styling of home page */
+/* styling of caroussel images */
+
+.homeimage1 {
+    background-image: url(../images/pathway.jpg);
+    height: 569px;
+    background-size: cover;
+}
+
+.homeimage2 {
+    background-image: url(../images/cravingtablet1.jpg);
+    height: 569px;
+    background-size: cover;
+}
+
+/* styling of caroussel buttons */
+
+.homecontent button {
+    background-color: white;
+    color: #1F1F1F;
+    border: 2px solid white;
+    border-radius: 5px;
+    border-width: thin;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-weight: 300;
+    transition-duration: 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+/* addition of animation for hover */
+.homecontent button:hover {
+    color: white;
+    background-color: #1F1F1F;
+    border-color: #1F1F1F;
+}
+
+/* styling of home paragraphe */
+.homep {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+
+/* styling of web projects page */
+
+/* set up of width for content */
+.webcontent {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+/* set up height for all image link container */
+.web1, .web2, .web3, .web4, .web5 {
+    height: 470px;
+}
+
+/* set up of background iamge for all web projects boxes */
+.webproject1 {
+    background-image: url(../images/finechocolatemob.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+/* addition of hover animation */
+.webproject1:hover,
+.webproject1:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject2 {
+    background-image: url(../images/waterwoodmob.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.webproject2:hover,
+.webproject2:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject3 {
+    background-image: url(../images/cravingsmobile.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.3);
+    transition: all .5s;
+}
+
+.webproject3:hover,
+.webproject3:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject4 {
+    background-image: url(../images/bootstrapmobile.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.webproject4:hover,
+.webproject4:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+.webproject5 {
+    background-image: url(../images/webmobile.jpg);
+    height: 470px;
+    background-size: cover;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.webproject5:hover,
+.webproject5:focus {
+    filter: blur(2px);
+    transform: scale(1.02);
+}
+
+
+/* styling of artwork page */
+/* set up width of content */
+
+.artworkcontent {
+    width: 80%;
+    margin: 2rem auto 4rem auto;
+}
+
+/* set up height for all artworks containers and links */
+
+.artlink1, .artlink2, .artlink3, .artlink4, .artlink5, .artlink6, .artlink7 {
+    height: 470px;
+}
+
+.spartan, .cityland, .citygoddess, .encounter, .blueworld, .pathway, .warpsunset {
+    height: 470px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    transition: all .5s;
+}
+
+/* set up background image for all containers */
+
+.spartan {
+    background-image: url(../images/spartan.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.cityland {
+    background-image: url(../images/cityland.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.citygoddess {
+    background-image: url(../images/citygoddess.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.encounter {
+    background-image: url(../images/encounter.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.blueworld {
+    background-image: url(../images/blueworld.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.pathway {
+    background-image: url(../images/pathway.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+.warpsunset {
+    background-image: url(../images/warpsunset.jpg);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.33); */
+}
+
+/* hover effect */
+
+.spartan:hover,
+.spartan:focus,
+.cityland:hover,
+.cityland:focus,
+.citygoddess:hover,
+.citygoddess:focus,
+.encounter:hover,
+.encounter:focus,
+.blueworld:hover,
+.blueworld:focus,
+.pathway:hover,
+.pathway:focus,
+.warpsunset:hover,
+.warpsunset:focus {
+    transform: scale(1.02);
+}
+
+/* styling of portfolio page */
+/* set up width content */
+
+.portfoliocontent {
+    width: 80%;
+    margin: 2rem auto 4rem auto;
+}
+
+/* background for filler */
+.webfiller {
+    background-image: url(../images/webmobile.jpg);
+    height: 465px;
+    background-size: cover;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.09);
+    transition: all .5s;
+}
+
+/* text styling */
+.webtext, .artworktext {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.webtext {
+    margin-bottom: 4rem;
+}
+
+.webtext p, .artworktext p {
+    margin-top: 1rem;
+}
+
+/* button styling */
+
+.webtext button, .artworktext button {
+    background-color: white;
+    color: #1F1F1F;
+    border: 2px solid #1F1F1F;
+    border-radius: 5px;
+    border-width: thin;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-weight: 300;
+    transition-duration: 0.5s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* hover effect set up */
+.webtext button:hover,
+.artworktext button:hover {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+/* filler for artwork height and bg set up */
+.artworkfiller {
+    background-image: url(../images/cityland.jpg);
+    height: 465px;
+    background-size: cover;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.29);
+    transition: all .5s;
+    background-position: center center;
+}
+
+.webfiller:focus,
+.webfiller:hover,
+.artworkfiller:focus,
+.artworkfiller:hover {
+    transform: scale(1.02);
+}
+
+/* styling of about page */
+/* width for content */
+
+.aboutcontent {
+    width: 80%;
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+/* set up of height andbackground for all filler elements */
+.aboutfiller {
+    background-image: url(../images/aboutfiller.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: -150px center;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.1);
+    transition: all .5s;
+}
+
+.ownerpicture {
+    background-image: url(../images/ownerpicture.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 2rem auto 2rem auto;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.2);
+    transition: all .5s;
+}
+
+.aboutfiller2 {
+    background-image: url(../images/whatsnext.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 2rem auto 2rem auto;
+    /* box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.2); */
+    transition: all .5s;
+}
+
+/* hover effect */
+
+.aboutfiller:hover,
+.aboutfiller2:hover,
+.ownerpicture:hover {
+    transform: scale(1.02);
+}
+
+.aboutcontent h2 {
+    margin-bottom: 2rem;
+}
+
+.abouttext1, .abouttext2{
+    margin-bottom: 4rem;
+}
+
+/* styling of work with me page */
+/* content width */
+
+.workcontent {
+    width: 90%;
+    margin: 0rem auto 2rem auto;
+    text-align: center;
+}
+
+/* form width inside of content */
+
+form {
+    width: 60%;
+    margin: auto;
+}
+
+/* sizing of form elements */
+
+fieldset {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+fieldset label {
+    display: block;
+    margin-bottom: 0.7rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
+/* making sure the box is big enough to click in mobile view */
+input[type="text"] {
+    height: 35px;
+    border-style: #5C6260;
+    border-radius: 15px;
+    border-width: 1px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+  
+#message {
+    padding: 0.5rem 0rem 7rem 0.6rem;
+    border-style: #5C6260;
+    border-radius: 15px;
+  }
+
+#message textarea {
+    vertical-align: top;
+  }
+  
+/* spread over content width */
+#firstname, #lastname, #phone, #email, #message {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+/* styling of buttons */
+.workcontent button {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    border-style: #5C6260;
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    background: white;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+
+/* hover effect */
+
+.workcontent button:hover {
+    background-color: #1F1F1F;
+    color: white;
+  }
+
+.worktext {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+.worktext a {
+      color: black;
+      font-weight: bold;
+  }
+
+.worktext a:focus,
+.worktext a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+/* filler styling and effect */
+
+.workfiller {
+    background-image: url(../images/workfiller.jpg);
+    background-position: center;
+    height: 580px;
+    background-size: cover;
+    margin: 3rem auto 4rem auto;
+    width: 90%;
+    transition: 0.5s;
+  }
+
+.workfiller:hover {
+    transform: scale(1.02);
+}
+
+
+/* styling of all the individual artwork pages */
+
+.indartcontent {
+    width: 80%;
+    margin: 2rem auto 4rem auto;
+    line-height: 1.6rem;
+}
+
+.indartwork {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    margin-bottom: 3rem;
+}
+
+.indartwork:hover {
+    transform: scale(1.02);
+}
+
+.indarttext h2 {
+    margin-bottom: 0.4rem;
+}
+
+.caption {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* design and styling of tablet view */
+
+@media (min-width: 768px) {
+
+    nav h3 {
+        font-size: 1rem;
+        margin-left: 3%;
+    }
+
+    /* footer font size change */
+
+    .footernav {
+        grid-template-columns: 60px 60px 90px auto 55px 85px 55px;
+    }
+
+    /* home page change of style */
+
+    .homeimage1 {
+        background-position: center -10px;
+    }
+
+    /* styling of web projects page */
+    /* change of background images */
+
+    .webproject1 {
+        background-image: url(..//images/finechocolatetab.jpg);
+    }
+
+    .webproject2 {
+        background-image: url(../images/waterwoodtab.jpg);
+    }
+
+    .webproject3 {
+        background-image: url(../images/cravingtablet1.jpg);
+    }
+
+    .webproject4 {
+        background-image: url(../images/boostraptablet.jpg);
+    }
+
+    .webproject5 {
+        background-image: url(../images/webproject.jpg);
+    }
+
+    /* styling of artwork page */
+    /* change of width and set up of grid for gallery of artworks */
+
+    .artworkcontent {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 48% 2% 48%;
+        grid-template-rows: 300px 20px 670px 20px 300px 20px 670px 20px 300px;
+        margin-bottom: 5rem;
+    }
+
+    /* change of height */
+
+    .cityland, .citygoddess, .blueworld, .pathway {
+        height: 670px;
+    }
+
+    .spartan {
+        height: 300px;
+        background-position: center -450px;
+    }
+
+    .encounter {
+        height: 300px;
+    }
+
+    .warpsunset {
+        height: 300px;
+    }
+
+    /* placement of all items on this grid */
+
+    .artlink1 {
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .artlink2 {
+        height: 670px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .artlink3 {
+        height: 670px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .artlink4 {
+        height: 300px;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .artlink5 {
+        height: 670px;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .artlink6 {
+        height: 670px;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .artlink7 {
+        width: 100%;
+        height: 300px;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    /* styling portfolio page */
+    /* change of height for filler and bg */
+
+    .webfiller {
+        height: 520px;
+        background-image: url(../images/webproject2.jpg);
+    }
+
+    .artworkfiller {
+        background-position: center -60px;
+        height: 520px;
+    }
+
+    /* styling of about page */
+
+    .aboutfiller {
+        background-position: center center;
+    }
+
+    /* styling of work with me page */
+    /* change of width */
+
+    .workcontent {
+        width:80%;
+        
+    }
+
+    /* set up of grid between filler and form/link */
+
+    .section {
+        display: grid;
+        grid-template-columns: 46% 46%;
+        grid-column-gap: 8%;
+    }
+
+    .worktext {
+        width: 100%;
+    }
+
+    .workfiller {
+        height: 700px;
+        width: 80%;
+    }
+
+    /* styling of all the artworks pages */
+    /* starting with spartan page */
+
+    .indartcontent {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: end;
+    }
+
+    .spartanartwork {
+        margin-bottom: 0rem;
+    }
+
+    /* set up of 2 sections to split screen in 2 between artwork and descriptive text */
+
+    .artworkleft {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .artworkright {
+        width: 42%;
+        margin-left: 8%;
+    }
+
+}
+
+
+
+/* design of laptop view */
+
+@media (min-width: 1024px) {
+
+    /* change style of footer */
+
+    .footernav {
+        grid-template-columns: 90px 90px 120px auto 85px 115px 85px;
+        font-size: 0.8rem;
+        width: 98%;
+    }
+
+    /* styling of homepage */
+    /* change bg image for carousssel */
+
+    .homeimage1 {
+        background-image: url(../images/pathway.jpg);
+        background-position: center -550px;
+    }
+
+    .homeimage2 {
+        background-image: url(../images/cravinglaptop.jpg);
+        background-position: center -10px;
+    }
+
+
+
+
+    /* styling of web project page */
+    /* change of bg image */
+
+    .webproject1 {
+        background-image: url(../images/finechocolateweb.jpg);
+    }
+
+    .webproject2 {
+        background-image: url(../images/waterwoodweb.jpg);
+    }
+
+    .webproject3 {
+        background-image: url(../images/cravinglaptop.jpg);
+    }
+
+    .webproject4 {
+        background-image: url(../images/bootstrapweb.jpg);
+    }
+
+    .webproject5 {
+        background-image: url(../images/webprojectlarge.jpg);
+    }
+
+    /* styling of artworks view */
+    /* set up of new grid for new gallery design */
+
+    .artworkcontent {
+        display: grid;
+        grid-template-columns: 32% 30px 15% 30px 15% 30px 32%;
+        grid-template-rows: 300px 30px 300px 30px 400px 30px 300px 30px 300px;
+    }
+
+    /* change of domensions of artworks */
+
+    .spartan {
+        height: 300px;
+        background-position: center -200px;
+    }
+
+    .cityland, .blueworld {
+        height: 630px;
+    }
+
+    .citygoddess {
+        height: 400px;
+    }
+
+    .encounter, .warpsunset {
+        height: 300px;
+    }
+
+    .pathway {
+        height: 300px;
+        background-position: center -315px;
+    }
+
+    /* positioning of containers */
+    
+    .artlink1 {
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-end: 2;
+        margin: 0;
+    }
+
+    .artlink2 {
+        height: 630px;
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        margin: 0;
+    }
+
+    .artlink3 {
+        height: 400px;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 9;
+        margin: 0;
+    }
+
+    .artlink6 {
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin: 0;
+    }
+
+    .artlink5 {
+        height: 630px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        margin: 0;
+    }
+
+    .artlink4 {
+        height: 300px;
+        background-position: center -300px;
+        grid-column-start: 3;
+        grid-column-end: 9;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        margin: 0;
+    }
+
+    .artlink7 {
+        height: 300px;
+        background-position: center -200px;
+        grid-column-start: 3;
+        grid-column-end: 9;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        margin: 0;
+    }
+
+    /* styling of portfolio page */
+    /* flex display and placement on the screen  */
+
+    .portfoliocontent {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .webfiller {
+        width: 48%;
+        margin-right: 2%;
+        order: 1;
+    }
+
+    .artworkfiller {
+        width: 48%;
+        margin-left: 2%;
+        order: 4;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .webtext {
+        width: 48%;
+        margin-left: 2%;
+        text-align: center;
+        order: 2;
+    }
+
+    .artworktext {
+        width: 48%;
+        margin-right: 2%;
+        order: 3;
+        padding-top: 4rem;
+        text-align: center;
+    }
+
+    /* change of margins */
+
+    .webtext h2, .artworktext h2 {
+        margin-bottom: 2rem;
+    }
+
+    .webtext p, .artworktext p {
+        margin-bottom: 2rem;
+    }
+
+    .webtext button, .artworktext button {
+        font-size: 1.5rem;
+    }
+
+    /* styling of about page */
+    /* change of width for content */
+
+    .aboutcontent {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* change of width for elements and placement on flex display */
+
+    .aboutfiller {
+        width: 48%;
+        margin-right: 2%;
+        order: 5;
+    }
+
+    .abouttext1 {
+        width: 48%;
+        margin-left: 2%;
+        order: 2;
+        margin-bottom: 0rem;
+    }
+
+    .ownerpicture {
+        width: 48%;
+        height: 450px;
+        margin-right: 2%;
+        margin-left: 0;
+        order: 1;
+    }
+
+    .abouttext2 {
+        width: 48%;
+        margin-right: 2%;
+        margin-top: 2rem;
+        order: 3;
+        margin-bottom: 0rem;
+    }
+
+    .aboutfiller2 {
+        order: 4;
+        width: 48%;
+        margin-left: 2%;
+        margin-right: 0;
+    }
+
+    .abouttext3 {
+        width: 48%;
+        order: 6;
+        margin-left: 2%;
+    }
+
+    /* styling of work with me page */
+    /* new grid display  */
+
+    .workcontent {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 48% 2% 48%;
+    }
+
+    /* change width of elements and placement on grid */
+
+    .workleftsection {
+        width: 100%;
+        grid-column-start: 1;
+        margin-top: 1rem;
+    }
+
+    .workrightsection {
+        grid-column-start: 3;
+    }
+
+    .workfiller {
+        height: 645px;
+
+    }
+
+    /* styling of all the artworks pages */
+    /* starting with spartan page */
+
+    .artworkleft {
+        width: 42%;
+        margin-right: 8%;
+    }
+
+}

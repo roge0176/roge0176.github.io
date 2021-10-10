@@ -1,0 +1,878 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+/* set up of font and default background color */
+body {
+    background-color: black;
+    font-family: 'montserrat', sans-serif;
+}
+
+/* header styling */
+
+header {
+    background-color: black;
+}
+
+/* styling of the logo */
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem 1rem 0rem;
+}
+
+/* styling of navigation menu */
+
+nav ul {
+    display: grid;
+    padding-bottom: 1rem;
+}
+
+nav ul li {
+	/* center text*/
+ 	text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+/* remove styling for links in nav bar */
+nav ul li a:link,
+nav ul li a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	text-decoration: none;
+	color: white;
+	font-size: 1.1rem;
+}
+
+/* styling of main content of home page and adding background image */
+.homemain {
+    margin: 0rem auto 0rem auto;
+    background-image: url(../images/bg-image1.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/* h1 styling */
+
+h1 {
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.4;
+    padding: 2rem 1rem 0rem 1rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+/* styling of container for homepage */
+
+.homegrid .container {
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+}
+  
+/* styling of dead links for each products */
+.homemain h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+  }
+
+/* styling of container links */
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+  
+/* blur the background picture on hover */
+.homemain .container img:hover{
+    filter: blur(3px);
+}
+  
+/* making sure that the pictures are responsive to stay in one column taking all screen space in mobile view */
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* styling of paragraphs */
+.homemain p {
+    width: 80%;
+    margin: 1rem auto 0rem auto;
+    text-align: center;
+    color: white;
+    line-height: 1.3;
+    font-weight: 200;
+}
+
+/* styling of h3 for homepage */
+
+.homemain h3 {
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: white;
+}
+
+/* creation of animation for freshness */
+.animation {
+    display: flex;
+    margin-top: 2rem;
+}
+
+/* setting up size and applying white background around circle */
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, transparent, transparent 40%, white);
+    margin: auto;
+    animation: animate 2s linear infinite;
+}
+
+/* set up of animation properties and timing */
+@keyframes animate {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* set up of before state for animation to have black content inside circle  */
+.circle:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+    background: black;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.homemain h3 {
+    position: relative;
+    top: -126px;
+    margin-bottom: -2rem;
+}
+
+
+/* footer styling */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+
+/* styling of products page */
+/* set up of styling for products blocks starting with 1 column in mobile view*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.productscontent h1 {
+    margin-top: 3rem;
+    font-weight: 500;
+}
+
+/* set up of product grid and styling of containers */
+
+.productsgrid {
+    display: grid;
+    margin-bottom: 2rem;
+}
+
+.productsgrid .container {
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+}
+
+/* styling of content and addition of background image */
+.productscontent {
+    margin: 0rem auto 0rem auto;
+    background-image: url(../images/productsbg.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+
+/* styling of h2 and paragrpahes */
+.productscontent h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.productscontent p {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.2rem;
+}
+
+.productsgrid .container {
+    margin-bottom: 2.5rem;
+}
+
+/* styling of buttons for each product */
+.productsmain button {
+    margin-top: 2rem;
+    background-color: white;
+    border: none;
+    padding: 16px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* addition of hover effect */
+.productsmain button:hover {
+    transform: scale(1.07);
+}
+
+
+/* styling of the about page */
+/* addition of background on main area and h1*/
+
+.aboutmain {
+    margin: 0rem auto 0rem auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-image: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.aboutmain h1 {
+    margin-top: 0;
+}
+/* styling of the table */
+
+table {
+	color: white;
+	margin: 2rem auto 3rem auto;
+	border: none;
+}
+
+table caption {
+	margin: 1rem 0 1rem 0;
+}
+
+td {
+	padding: 1rem;
+}
+
+/* styling of filler image making sure it doesn't get too big */
+
+.filler {
+    margin: 4rem auto 0 auto;   
+}
+
+.filler img {
+    max-width: 100%;
+}
+
+/* styling of info text */
+.infotext {
+    color: white;
+    width: 80%;
+	margin: 3rem auto 2rem auto;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.infotext h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+/* styling of the contact page */
+/* start with styling of contact form*/
+
+.contactmain {
+    background-image: url(../images/contactbg.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+}
+
+.contactmain h1 {
+    margin-top: 0rem;
+    padding-top: 5rem;
+}
+
+/* styling of both main contents of the page together */
+form, .mapouter {
+    width: 80%;
+    color: white;
+	text-align: center;
+	margin: 2rem auto 2rem auto;
+    font-size: 1.2rem;
+}
+
+/* styling of fieldset and labels */
+
+fieldset {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 0.7rem;
+    margin-top: 1rem;
+}
+
+/* making sure the box is big enough to click in mobile view */
+input[type="text"] {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#message {
+    padding: 5rem 0rem 5rem 0.4rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* spread over screen page */
+#name, #email, #message {
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+#spam {
+  margin-top: 1rem;
+}
+
+/* styling of buttons */
+.contactmain button {
+  width: 50%;
+  padding: 1rem 0 1rem 0;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background: white;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+/* styling of the map */
+.mapouter {
+	margin: auto;
+	position: relative;
+	height:500px;
+    width:400px;
+    margin: auto;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:400px;
+}
+
+/* styling of gallery page */
+/* start with styling of main content container and h1 */
+
+.gallerymain {
+    background-image: url(../images/gallerybg.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.gallerymain h1 {
+    margin-top: 3rem;
+    width: 80%;
+}
+
+/* styling of the grid and centering */
+.gallerygrid {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+/* styling of each container size and start animation hover start */
+.gallerymain .container {
+    margin: 2rem auto 2rem auto;
+    transition: all 0.3s ease-in-out;
+}
+
+/* set up scale hover effect */
+.gallerymain .container:hover {
+    transform: scale(1.05);
+}
+
+/* styling of tablet view */
+
+@media (min-width: 768px) {
+
+    /* styling of nav bar and header */
+    header {
+        background-color: transparent;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    /* switch nav bar from rows to columns and changing sizes to distribute around logo*/
+    nav ul {
+        grid-template-columns: 20% 15% 30% 15% 20%;
+        margin-bottom: -3rem;
+        font-size: 1rem;
+    }
+
+    /* styling of 3rd list item to ensure logo is in the middle */
+    nav ul li:nth-child(3) {
+        grid-column-start: 4;
+    }
+
+    nav ul li {
+        transform: translate(0, -100px);
+    }
+
+    nav ul li a:hover,
+    nav ul li a:active {
+	font-size: 1.5rem;
+}
+
+    /* styling of home page changing background from main to whole content*/
+
+    .homecontent {
+        background-image: url(../images/bg-image.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /* change of padding for main and h1 */
+    .homemain {
+        padding-bottom: 2rem;
+        background-image: none;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+
+    /* change of grid to 8 columns to place each main products on one line */
+    .homegrid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .homegrid .container:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .homegrid .container:nth-child(2) {
+        grid-column-start: 5;
+        grid-column-end: 9;
+    }
+
+    .homegrid .container:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .homegrid .container:nth-child(4) {
+        grid-column-start: 5;
+        grid-column-end: 9;
+    }
+
+    /* change of padding for containers and h2 */
+    .container {
+        padding-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        background-color: transparent;
+    }
+
+
+    /* styling of products page */
+    /* change of number of columns to 2 */
+    .productsgrid {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0rem 2rem 0rem 2rem;
+    }
+
+    /* styling of about page */
+    .aboutmain {
+        background-image: none;
+    }
+
+    /* change background from main to content */
+    .aboutcontent {
+        background-image: url(../images/aboutbg.png);
+	    background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /* spacing of rows */
+    .row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 4rem;
+		margin-bottom: 2rem;
+	}
+
+    /* styling of the hour table and filler container*/
+	table {
+		margin-top: 3rem;
+		width: 50%;
+		text-align: center;
+	}
+
+	.filler {
+		width: 50%;
+		text-align: center;
+	}
+	/* change size for image so it looks organic */
+	.ornament{
+		height: 350px;
+		width: auto;
+		margin-right: 2rem;
+	}
+
+    /* change of margin around text and weight */
+	.infotext {
+		font-size: 0.85rem;
+		margin: 2rem 5rem 1rem 5rem;
+    }
+    
+    .infotext p {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    /* styling of contact page */
+    /* removing previous background and addition of new around content */
+    .contactmain {
+        background-image: none;
+        display: flex;
+		flex-wrap: wrap;
+		margin-top: 0rem;
+		margin-bottom: 2rem;
+    }
+
+    .contactmain h1 {
+        margin-bottom: 8rem;
+    }
+
+    .contactcontent {
+        background-image: url(../images/contactbg.png);
+	    background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+	}
+
+	form {
+		width: 30%;
+		margin: auto;
+    }
+    
+
+    /* styling of gallery page */
+    /* starting with set up of background for whole page */
+
+    .gallerymain {
+        background-image: none;
+    }
+
+    .gallerycontent {
+        background-image: url(../images/gallerybg.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /* set up of 2 responsive columns for gallery pictures */
+    .gallerygrid {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-column-gap: 2%;
+        grid-row-gap: 1rem;
+    }
+
+    .gallerygrid .container {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    /* placing of each container for pictures */
+    .gallerygrid .container:nth-child(4) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .gallerygrid .container:nth-child(2) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .gallerygrid .container:nth-child(3), .gallerygrid .container:nth-child(6) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .gallerygrid .container:nth-child(7) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .gallerygrid .container:nth-child(8) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    }
+    
+}
+
+
+/* styling for laptop view */
+
+@media (min-width: 1024px) {
+
+    nav ul li {
+        font-size: 1.38rem;
+    }
+
+    h1 {
+        margin-bottom: 6rem;
+    }
+
+    /* set up of columns for products container and spacing */
+    .homegrid {
+        grid-template-columns: 8% 18% 4% 18% 4% 18% 4% 18% 8%;
+    }
+
+    /* placement of containers */
+    .homegrid .container:nth-child(1) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .homegrid .container:nth-child(2) {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+    .homegrid .container:nth-child(3) {
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+
+    .homegrid .container:nth-child(4) {
+        grid-column-start: 8;
+        grid-column-end: 9;
+    }
+
+    .homegrid p {
+        margin-top: 3rem;
+    }
+
+
+    /* styling of products page */
+    /* set up of 3 columns */
+    .productsgrid {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0rem 2rem 2rem 2rem;
+    }
+
+    /* styling of h2 and buttons */
+    .productscontent h2 {
+        margin-top: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .productscontent button {
+        margin-top: 2.5rem;
+    }
+
+    /* styling of about page*/
+    /* set up of 3 columns for all content and change width of full container*/
+    
+    .aboutmain h1 {
+        margin-bottom: 8rem;
+    }
+
+    /* change size of main area */
+    .aboutmain {
+        margin-bottom: 3rem;
+        width: 95%;
+    }
+
+    /* change of width for table filler and text to have 3 columns */
+	table {
+		width: 32%;
+		margin: 0.5rem 0rem 0rem 0rem;
+	}
+
+	.filler {
+		width: 32%;
+		margin: 0rem auto 0rem auto;
+	}
+
+	.ornament {
+        height: 400px;
+        width: auto;
+        margin: 0rem;
+	}
+
+	.infotext {
+		font-size: 1.08rem;
+		width: 28%;
+		margin:auto;
+    }
+    
+    /* styling of contact page */
+    /* set up of 2 columns for name and email box */
+
+	.section {
+        display: grid;
+        grid-template-columns: 46% 46%;
+        grid-column-gap: 8%;
+    }
+
+    /* styling of gallery page */
+    /* change of organisation on the grid */
+
+    .gallerygrid {
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10.5% 4.5% 4.5% 10.5% 10% 10% 10%;
+        grid-column-gap: 15px;
+        grid-row-gap: 8px;
+    }
+
+    /* placement of each container */
+    .gallerygrid .container:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .gallerygrid .container:nth-child(2) {
+        grid-column-start: 5;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .gallerygrid .container:nth-child(3) {
+        grid-column-start: 5;
+        grid-column-end: 11;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .gallerygrid .container:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .gallerygrid .container:nth-child(5) {
+        grid-column-start: 6;
+        grid-column-end: 11;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .gallerygrid .container:nth-child(6) {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .gallerygrid .container:nth-child(7) {
+        grid-column-start: 7;
+        grid-column-end: 11;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+
+    .gallerygrid .container:nth-child(8) {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .gallerymain .container:hover {
+        transform: scale(1.01);
+        transition: all 0.3s ease-in-out;
+    }
+
+    
+}

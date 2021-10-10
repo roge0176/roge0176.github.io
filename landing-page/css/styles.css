@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+
+/* body basic set up */
+body {
+    background-color: #f7f7ff;
+    margin: auto;
+}
+
+/* sizing and placing of main logo */
+img {
+    height: 120px;
+    width: 120px;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* centering main content section */
+.content {
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+/* h1 title configuration */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-bottom: 0.7rem;
+    font-size: 4.3rem;
+}
+
+/* p styling */
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0rem;
+    font-size: 1.8em;
+}
+
+/* setting up scooter image centering and making it responsive */
+.background-image img {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+    margin: 0.5rem auto 1rem auto;
+}
+
+.background-image {
+    margin: auto;
+    text-align: center;
+}
+
+/* form set up */
+/* h2 styling */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 2.7rem;
+}
+
+/* styling of form container with borders and drop shadow */
+.form {
+    background-color: white;
+    padding: 0.5rem 1rem 1rem 0rem;
+    margin: 0rem 0.5rem 2rem 0.5rem;
+    border-radius: 25px;
+    box-shadow: 5px 10px 5px 0px #C3C1C1;
+}
+
+/* p styling for form */
+.form p {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+}
+
+/* set up of margins inside form */
+.container {
+    margin: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* fieldset and input styling */
+fieldset {
+    border: none;
+}
+
+/* change of font and padding to ensure alignement */
+.form input {
+    width: 100%;
+    margin: 0rem;
+    padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+    border: none;
+    border-radius: 12.5px;
+    background-color: #F5F5F5;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.container input:nth-child(8) {
+    width: 100%;
+    margin: 0.5rem 0rem 1rem 0.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: #57eabb;
+    font-weight: 600;
+    padding: 0.8rem 0rem 0.8rem 0rem;
+}
+
+.container fieldset:nth-child(7) {
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+/* styling of checkbox and label hiding it and then styling new one */
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+span {
+    /* displaying the span as inline-block to add the height and width */
+    display: inline-block;
+    /* vertically aligning the text to the middle of the span */
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 0.4rem 1rem 0rem;
+}
+
+/* hiding the default input field */
+.checkbox input { 
+    display: none;
+}
+
+.checkbox input:checked + span:before{
+    content: '\2713';
+    padding: 5px;
+}
+
+/* styling of link */
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #E86252;
+}
+
+/* footer set up */
+footer {
+    background-color: #fffd8c;
+    padding: 2rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* footer text styling */
+footer p {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+/* footer form styling */
+.footer-form {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer fieldset {
+    border: none;
+}
+/* styling of input boxes in footer */
+.footer-form input { 
+    width: 100%;
+    border: none;
+    border-radius: 12.5px;
+    margin: auto;
+    padding: 0.75rem 0rem 0.75rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+/* styling of fieldset making sure they fit on one line */
+footer fieldset:nth-child(1) {
+    margin-left: 0;
+    margin-right: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: calc(25% - 1.5rem);
+}
+
+footer fieldset:nth-child(2) {
+    margin-left: 1.5rem;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: calc(75% - 1.5rem);
+}
+
+footer fieldset:nth-child(3) {
+    padding-right: 0rem;
+}
+
+/* styling of calculate button */
+footer input:nth-child(3) {
+    width: 100%;
+    background-color: #ff8480;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+/* footer logo socials styling */
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+
+.socials {
+    display: flex;
+}
+
+.socials img {
+    width: 100%;
+    margin: 0;
+}
+
+
+/* first breakpoint for tablet view */
+@media (min-width: 768px) {
+
+    /* line up logo with contect */
+    .logo {
+        margin-left: 2rem;
+    }
+
+    img {
+        margin-top: 1.5rem;
+    }
+
+    /* change margins to have more space around conten */
+    .content {
+        margin: 0rem 4rem 6rem 4rem;
+    }
+
+    /* making title bigger and p smaller*/
+    h1 {
+        font-size: 4.9rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+
+    /* set up max height and width for background image and center it */
+    .background-image img {
+        max-height: 500px;
+        max-width: 500px;
+    }
+
+    .background-image {
+        text-align: center;
+    }
+
+    /* spacing of form changes */
+    .container {
+        margin: 1.2rem;
+    }
+
+    /* p font changes in form */
+    .form p {
+        font-size: 1.8rem;
+    }
+
+    .checkbox p {
+        font-size: 1rem;
+    }
+
+    .container p:nth-child(9) {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* footer set up and spacing change*/
+    footer {
+        padding: 1.5rem 5rem 2rem 5rem;
+    }
+
+    /* set up of different widths to get all input on same line */
+    footer fieldset:nth-child(1) {
+        width: calc(20% - 1.5rem);
+    }
+
+    footer fieldset:nth-child(2) {
+        margin-right: 0.5rem;
+        width: calc(40% - 1.5rem);
+    }
+
+    footer input:nth-child(3) {
+        margin-left: 1.5rem;
+        width: calc(40% - 1.5rem);
+    }
+
+    /* change width of logo icons to center them and have them closer to each other */
+    .socials {
+        justify-content: center;
+    }
+
+    .socials img {
+        width: 12.5%;
+    }    
+}
+
+/* set up of laptop view */
+@media (min-width: 1024px) {
+    
+    /* align logo with rest of content */
+    img {
+        margin-top: 2rem;
+    }
+
+    /* set up of 3 columns grid, middle one emptu to leave space for bg image */
+    .content{
+        display: grid;
+        grid-template-columns: 35% 30% 35%;
+        margin-top: 3rem;
+        /* set up of bg scooter image to ensure overflow */
+        background-image: url(../images/bg-image/scooter.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 675px;
+    }
+
+    /* hiding responsive bg image set up for mobile and tablet view */
+    .background-image {
+        display: none;
+    }
+
+    /* placing form in last column */
+    .form {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        overflow: hidden;
+    }
+
+    /* font change */
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .container p:nth-child(9) {
+        margin-top: 0rem;
+        font-size: 0.85rem;
+    }
+
+    /* set up of 3 columns for footer with form on the left */
+    footer {
+        display: grid;
+        grid-template-columns: 60% 25% 15%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    /* move social icons to the last column of footer */
+    .socials {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-self: center;
+        align-self: center;
+        width: 125%;
+        justify-content: space-between;
+    }
+}
